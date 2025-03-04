@@ -13,7 +13,7 @@ class bank
         this.balance=balance;
     }
 
-    void dislay()
+    void display()
     {
         System.out.println("Name : "+name);
         System.out.println("Address : "+address);
@@ -49,16 +49,17 @@ class bank
         System.out.println("*****Bank Management System*****");
         System.out.print("Enter the number of depositors: ");
         int n=sc.nextInt();
-        //array of objects
-        bank arr[]=new bank[n];
-        //input
-        for(int i=0;i<n;i++)
+        
+        bank arr[]=new bank[n]; //array of objects
+        
+        for(int i=0;i<n;i++)    //input
         {
             System.out.println("************************************"); 
             System.out.println("Enter the name of depositor "+(i+1)+": ");
-            name=sc.next();
+            name=sc.nextLine();
+            sc.nextLine();
             System.out.println("Enter the address of depositor "+(i+1)+": ");
-            address=sc.next();
+            address=sc.nextLine();
             System.out.println("Enter the balance of depositor "+(i+1)+": ");
             balance=sc.nextDouble();
             accno=1001+i;
@@ -115,7 +116,7 @@ class bank
                     else
                     {
                         System.out.println("************************************");
-                        arr[(acc3-1001)].dislay();
+                        arr[(acc3-1001)].display();
                     }
                     break;
                 case 4:
