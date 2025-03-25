@@ -10,7 +10,7 @@ class wavy
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        wavy ob=new wavy();
+        
         System.out.print("Enter the size of array: ");
         int n=sc.nextInt();
         int arr[]=new int[n];
