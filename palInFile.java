@@ -1,4 +1,4 @@
-//counting palendrome words from a file
+//counting palendrome words from a file q18 in java lab manual
 import java.io.*;
 
 class palInFile 

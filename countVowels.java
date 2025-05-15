@@ -2,8 +2,6 @@
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.time.temporal.JulianFields;
-
 import javax.swing.*;
 
 class countVowels extends JFrame implements ActionListener
