@@ -8,13 +8,13 @@ class A extends Thread
         for(int i=1;i<=5;i++)
         {
             System.out.println(Thread.currentThread().getName()+"...i="+i);
-            // try{
-            //     sleep(1000);
-            // }
-            // catch(InterruptedException e)
-            // {
-            //     System.out.println(e);
-            // }
+            try{
+                sleep(1000);
+            }
+            catch(InterruptedException e)
+            {
+                System.out.println(e);
+            }
         }
         System.out.println("Thread A ended...");
     }

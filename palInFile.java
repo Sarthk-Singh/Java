@@ -19,7 +19,7 @@ class palInFile
         StringBuilder word = new StringBuilder();
 
         try {
-            FileInputStream fis = new FileInputStream("/Users/sarthaksingh/Documents/Sarthak Singh-B2:56(2319524)/Java/myFile.txt");
+            FileInputStream fis = new FileInputStream("C:\\Users\\HP\\Documents\\Sarthak Singh B2-56-(23021186)\\Java\\myFile.txt");
             int ch;
 
             while ((ch = fis.read()) != -1) {
