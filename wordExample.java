@@ -19,6 +19,8 @@ public class wordExample {
         System.out.println("Numbers starting and ending with vowels: " + cnt);
     }
 
+    System.out.println("Hello My name is Bikram Singh Bisht")
+
     public void placeWords() {
         String[] words = strdata.split("\\s+");
         StringBuilder vowelWords = new StringBuilder();
