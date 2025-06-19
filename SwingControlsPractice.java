@@ -1,10 +1,12 @@
 
 //creating a form in java
-import javax.swing.*;
 import java.awt.*;
+import javax.swing.*;
 
-class SwingControlsPractice extends JFrame {
-  SwingControlsPractice() {
+class SwingControlsPractice extends JFrame 
+{
+  SwingControlsPractice() 
+  {
     JLabel l1 = new JLabel("Your Name");
     JTextField tf1 = new JTextField(20);
     JTextArea ta = new JTextArea(10, 50);
